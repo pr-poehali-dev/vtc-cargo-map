@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Новые цвета для сайта VTC
+				vtc: {
+					DEFAULT: '#2563eb', // Синий цвет
+					light: '#3b82f6',
+					dark: '#1d4ed8',
+					foreground: '#ffffff',
+					accent: '#f97316', // Оранжевый акцент
+					gray: '#64748b'
 				}
 			},
 			borderRadius: {
